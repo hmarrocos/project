@@ -28,24 +28,16 @@ export default function Home(): JSX.Element {
             <h2>Card 1</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, accusantium minima officia iusto quos eius magnam officiis cumque adipisci sit numquam possimus neque provident rem sapiente amet atque! Nemo, voluptates.</p>
           </a>
-
-          <a className={styles.card}>
-            <h2>Card 2</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi harum neque consequatur qui quam, animi, sint mollitia reiciendis, esse cupiditate excepturi? Perspiciatis ab quos veniam voluptatem cumque saepe nemo hic.</p>
-          </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://hmarrocos.vercel.app/"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
-          Distribuído por{''}
-          <span className={styles.logo}>
-            <Image src="/favicon-16x16.png" alt="Marrocos Logo" width={16} height={16} />
-          </span>
+          Todos direitos reservados
         </a>
       </footer>
     </div>

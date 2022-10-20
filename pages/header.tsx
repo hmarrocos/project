@@ -2,17 +2,17 @@ import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 
 export default function Header(): JSX.Element {
-  const title = "Marrocos";
+  const title = "";
   const desc =
-    "Web Developer Front-end";
-  const ogImgRelativePath = "/og.png";
+    "";
+  const ogImgRelativePath = "";
 
-  const siteURL = "https://hmarrocos.vercel.app/";
+  const siteURL = "";
   const ogImageURL = `${siteURL}${ogImgRelativePath}`;
   const pathName = useRouter().pathname;
   const pageURL = pathName === "/" ? siteURL : siteURL + pathName;
   const twitterHandle = "";
-  const siteName = "hmarrocos.vercel.app";
+  const siteName = "";
 
   return (
     <NextSeo
@@ -30,7 +30,7 @@ export default function Header(): JSX.Element {
             url: ogImageURL,
             width: 1200,
             height: 630,
-            alt: "Marrocos",
+            alt: "",
           },
         ],
         site_name: siteName,
